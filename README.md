@@ -20,7 +20,3 @@ This repo contains an easy-to-customize personal portfolio template that was cre
  - 2.Run npm install or yarn install. 
  - 3.Change the values in src/yourdata.js to suit your use-case. 
  - 4.Run npm start or yarn start to start the local dev server port 3000.(http://localhost:3000).
-
-# Full Preview - 
-
-![homew](https://user-images.githubusercontent.com/16558205/78119350-eacae980-7425-11ea-848a-adaf69eb4dd2.png)
