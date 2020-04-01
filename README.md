@@ -11,7 +11,6 @@ This repo contains an easy-to-customize personal portfolio template that was cre
  - Production Ready
  - Fully Responsive
  - Easy To Customize and Personalise
- - Amazing Animations
  - Minimal & Modern Design
  
  
