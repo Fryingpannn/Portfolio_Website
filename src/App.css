@@ -78,6 +78,7 @@ a{
   font-size: 2rem;
   opacity: 0.4;
 }
+
 .home_container .image_container img{
   position: relative;
   height: 26rem;
@@ -88,6 +89,11 @@ a{
   border-top: 0px;
   border-left: 0px;
   border-color: #1E6FD9;
+  transition: transform .5s ease;
+}
+
+.home_container .image_container img:hover{
+  transform: scale(1.1);
 }
 
 
@@ -245,10 +251,6 @@ a{
   top: 2rem;
 }
 
-.home_container .image_container img:hover{
-  opacity: 0.5;
-}
-
 /* Work */
 .work_container {
   top: 10rem;
@@ -266,9 +268,6 @@ a{
 .work_container .projects_container img {
   height: 8rem;
   width: 8rem;
-}
-.work_container .projects_container img:hover{
-  opacity: 0.5;
 }
 
 .work_container .projects_container .title {
