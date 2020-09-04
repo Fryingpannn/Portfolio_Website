@@ -2,60 +2,73 @@ export default {
   //(Please Do Not Remove The comma(,) after every variable)
 
   //Change The Website Template
-  name: "chetanverma.",
+  name: "Matthew",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "matthewdukepan@gmail.com",
 
   // Landing Page Name
-  landingPageName: "Chetan Verma",
+  landingPageName: "Matthew Pan",
 
   // Landing Page Paragraph
   landingPagePara:
-    "Designer and front-end developer. I work as the Creative Director at WORK in India, while also taking on freelance projects that pique my interest.",
+    "A computer science student from Canada. I aspire to deepen my understanding in all areas of technology & product development.",
 
   // Landing Page Image (replace - root/public/assets/photo.jpg)
-  landingPageImage: "assets/photo.jpg",
+  landingPageImage: "assets/1.jpg",
 
   // Change Projects Here
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "Trendy Markt", //Project Title - Add Your Project Title Here
+      short: "A modern online grocery store.",
+      tech: "HTML, CSS, Bootstrap, JS, PHP, MySQL",
+      git: "https://github.com/Fryingpannn/OnlineGroceryStore-TrendyMarkt",
       // Image Size Should be (300X300 px)
-      imageSrc: "https://via.placeholder.com/300",
+      imageSrc: "assets/trendy.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/"
+      url: "https://trendymarkt.herokuapp.com/index.php"
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Two",
-      imageSrc: "https://via.placeholder.com/300",
-      url: "http://chetanverma.com/"
+      title: "Commands REST API",
+      short: "API that provides command line code snippets.",
+      tech: "ASP.NET Core MVC, C#, EF Core, SQL Server, Docker",
+      git: "https://github.com/Fryingpannn/.NETCore_MVC_RESTAPI",
+      imageSrc: "assets/commanderapi.png",
+      url: "http://commanderapi.canadacentral.azurecontainer.io/index.html"
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Three",
-      imageSrc: "https://via.placeholder.com/300",
-      url: "http://chetanverma.com/"
+      title: "Recipe Search API",
+      short: "Find the recipes of tens of thousands of dishes.",
+      git: "https://github.com/Fryingpannn/RecipeSearchAPI",
+      tech: "React.js, Css, Bootstrap",
+      imageSrc: "assets/recipeapi.png",
+      url: "https://recipesearchapi.web.app/"
     },
     {
       id: 4, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Four",
-      imageSrc: "https://via.placeholder.com/300",
-      url: "http://chetanverma.com/"
+      title: "Graphics Card Web Scraper",
+      short: "Python script that scrapes GPU data online.",
+      tech: "Python, BeautifulSoup",
+      imageSrc: "assets/pythongpu.png",
+      git: "https://github.com/Fryingpannn/GPU_Webscrape"
     },
     {
       id: 5, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Five",
-      imageSrc: "https://via.placeholder.com/300",
-      url: "http://chetanverma.com/"
+      title: "Forest Fire Detection Mobile App",
+      short: "Mobile app that sends alerts to prevent fires.",
+      tech: "React Native",
+      imageSrc: "assets/charmander.png",
+      git: "https://github.com/Fryingpannn/Forest_Fire_Detection_App"
     },
     {
       id: 6, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Six",
-      imageSrc: "https://via.placeholder.com/300",
-      url: "http://chetanverma.com/"
+      title: "Next project...",
+      imageSrc: "assets/unknown.png",
+      
     }
     // Paste more projects here from the template
 
@@ -72,21 +85,17 @@ export default {
 
   // Contact Section
   contactPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "I would be happy to discuss my projects & aspirations further with you, simply shoot me an email or message me on LinkedIn! :)",
   social: [
     // Add Or Remove The Link Accordingly
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/chetanverma7/"
+      url: "https://www.linkedin.com/in/matthewdukepan/"
     },
     {
       name: "Github",
-      url: "https://www.behance.net/chetanverma"
+      url: "https://github.com/Fryingpannn"
     },
-    {
-      name: "Dribbble",
-      url: "https://dribbble.com/chetanverma"
-    }
   ],
 
   // About Page

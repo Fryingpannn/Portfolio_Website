@@ -14,7 +14,7 @@ const Contact = ({contactEmail, contactPara, socialLinks})=>{
         <div className="social_links">
           <ul>
             <li>
-              <a href={`mailto:${contactEmail}`}>
+              <a id="end" href={`mailto:${contactEmail}`}>
                 <FaEnvelope></FaEnvelope>
               </a>
             </li>
@@ -26,11 +26,6 @@ const Contact = ({contactEmail, contactPara, socialLinks})=>{
             <li>
               <a href={socialLinks[1].url}>
                 <FaGithub></FaGithub>
-              </a>
-            </li>
-            <li>
-              <a href={socialLinks[2].url}>
-                <FaCodepen></FaCodepen>
               </a>
             </li>
           </ul>
