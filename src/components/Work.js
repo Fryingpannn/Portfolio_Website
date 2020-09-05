@@ -8,13 +8,13 @@ const Work = ({projects}) =>{
             <div className="projects_container">
                 {projects.map((project)=>(
                 <div key={project.id} className="project">
-                    <div className="title"><strong>{project.title}</strong></div>
                     <div className="image">
                         <a href={project.url}>
                             <img src={project.imageSrc} alt={project.title}></img>
                         </a>
                     </div>
                     <div className="title">
+                    <strong>{project.title}</strong><br></br>
                     {project.short} <a  className="git-color" href={project.git}>(Git)</a>
                     </div>
                 </div>

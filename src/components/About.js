@@ -13,7 +13,7 @@ return (
     <object width="100%" height="1100" type="application/pdf" data="assets/TechResume_Shared.pdf">
       <p>PDF cannot be displayed.</p>
     </object>
-      <div className="space">
+      <div className="spaceAbout">
       </div>
     </div>
   </div>

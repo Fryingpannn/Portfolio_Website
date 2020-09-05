@@ -175,8 +175,8 @@ a{
 
 /* About */
 
-.space{
-  height: 20mm;
+.spaceAbout {
+  height: 10mm;
 }
 
 .about_container{
@@ -203,8 +203,15 @@ a{
   top:-20rem;
 }
 
-
 @media only screen and (max-width: 600px) {
+  .space{
+    height: 30mm;
+  }
+
+  .spaceAbout {
+    height: 20mm;
+  }
+
   body{
     font-size: 2px;
   }
@@ -278,11 +285,11 @@ a{
 /* Contact */
 
 .contact_container {
-  top: 10rem;
+  top: 21rem;
 }
 
 .contact_container h1 {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .contact_container p {
@@ -302,12 +309,17 @@ a{
 .contact_container li a {
   font-size: 0.5rem;
 }
-
-
 }
 
-
 @media only screen and (min-width: 600px) and (max-width:800px){
+  .space{
+    height: 30mm;
+  }
+
+  .spaceAbout {
+    height: 20mm;
+  }
+
   body {
     font-size: 2px;
   }
@@ -390,11 +402,11 @@ a{
   /* Contact */
 
   .contact_container {
-    top: 10rem;
+    top: 21rem;
   }
 
   .contact_container h1 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 
   .contact_container p {

@@ -58,7 +58,7 @@ export default {
     },
     {
       id: 5, //DO NOT CHANGE THIS (Please)😅
-      title: "Forest Fire Detection Mobile App",
+      title: "Forest Fire Detection App",
       short: "Mobile app that sends alerts to prevent fires.",
       tech: "React Native",
       imageSrc: "assets/charmander.png",

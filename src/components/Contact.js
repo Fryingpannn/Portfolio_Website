@@ -30,6 +30,7 @@ const Contact = ({contactEmail, contactPara, socialLinks})=>{
             </li>
           </ul>
         </div>
+        <div className="space"></div>
       </div>
     );
 }
