@@ -12,7 +12,7 @@ export default {
 
   // Landing Page Paragraph
   landingPagePara:
-    "A computer science student from Canada. I aspire to deepen my understanding in all areas of technology & product development.",
+    "A computer science student from Canada. I aim to deepen my understanding in various areas of technology and product development.",
 
   // Landing Page Image (replace - root/public/assets/photo.jpg)
   landingPageImage: "assets/1.jpg",
@@ -66,9 +66,11 @@ export default {
     },
     {
       id: 6, //DO NOT CHANGE THIS (Please)😅
-      title: "Next project...",
-      imageSrc: "assets/unknown.png",
-      
+      title: "Stocks DD Forecasting",
+      short: "Analyze stocks' due diligences on r/wsb.",
+      tech: "Python (pandas), Django, ReactJS, Reddit & IEXFinance APIs",
+      imageSrc: "assets/stonks.jpg",
+      git: "https://github.com/Fryingpannn/Stocks_DDAnalyzer"
     }
     // Paste more projects here from the template
 
