@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { FaEnvelope, FaLinkedin, FaGithub, FaCodepen } from "react-icons/fa";
 
 const Contact = ({contactEmail, contactPara, socialLinks})=>{
-
+  const [count,setCount] = useState(0);
     return (
       <div className="contact_container">
         <h1>Get in touch.</h1>
@@ -31,6 +31,10 @@ const Contact = ({contactEmail, contactPara, socialLinks})=>{
           </ul>
         </div>
         <div className="space"></div>
+        <h3 style={{marginTop: "5%", marginLeft: "80%"}}>
+        <p style={{marginLeft: ""}}>Count: {count} </p>
+        <button style={{marginLeft: "100%"}} onClick={() => setCount(count+1)}>Easter egg</button>
+      </h3>
       </div>
     );
 }

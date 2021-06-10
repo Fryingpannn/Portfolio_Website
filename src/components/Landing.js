@@ -5,6 +5,7 @@ import Work from './Work';
 import Contact from './Contact';
 
 import data from './yourdata';
+import { render } from '@testing-library/react';
 
 const Landing = ()=>{
     return(<div className="App">

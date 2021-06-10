@@ -20,6 +20,14 @@ export default {
   // Change Projects Here
   projects: [
     {
+      id: 6, //DO NOT CHANGE THIS (Please)😅
+      title: "Stocks DD Forecasting",
+      short: "Analyze r/wsb's stock due diligences.",
+      tech: "Python (pandas), Django, ReactJS, Reddit & IEXFinance APIs",
+      imageSrc: "assets/stonks.jpg",
+      git: "https://github.com/Fryingpannn/WallStreetBets_BigDataAnalysis"
+    },
+    {
       id: 1, //DO NOT CHANGE THIS (Please)😅
       title: "Trendy Markt", //Project Title - Add Your Project Title Here
       short: "A modern online grocery store.",
@@ -36,8 +44,7 @@ export default {
       short: "API that provides command line code snippets.",
       tech: "ASP.NET Core MVC, C#, EF Core, SQL Server, Docker",
       git: "https://github.com/Fryingpannn/.NETCore_MVC_RESTAPI",
-      imageSrc: "assets/commanderapi.png",
-      url: "http://commanderapi.canadacentral.azurecontainer.io/index.html"
+      imageSrc: "assets/commanderapi.png"
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
@@ -49,14 +56,6 @@ export default {
       url: "https://recipesearchapi.web.app/"
     },
     {
-      id: 4, //DO NOT CHANGE THIS (Please)😅
-      title: "Graphics Card Web Scraper",
-      short: "Python script that scrapes GPU data online.",
-      tech: "Python, BeautifulSoup",
-      imageSrc: "assets/pythongpu.png",
-      git: "https://github.com/Fryingpannn/GPU_Webscrape"
-    },
-    {
       id: 5, //DO NOT CHANGE THIS (Please)😅
       title: "Forest Fire Detection App",
       short: "Mobile app that sends alerts to prevent fires.",
@@ -65,12 +64,9 @@ export default {
       git: "https://github.com/Fryingpannn/Forest_Fire_Detection_App"
     },
     {
-      id: 6, //DO NOT CHANGE THIS (Please)😅
-      title: "Stocks DD Forecasting",
-      short: "Analyze stocks' due diligences on r/wsb.",
-      tech: "Python (pandas), Django, ReactJS, Reddit & IEXFinance APIs",
-      imageSrc: "assets/stonks.jpg",
-      git: "https://github.com/Fryingpannn/Stocks_DDAnalyzer"
+      id: 7, //DO NOT CHANGE THIS (Please)😅
+      title: "Next up...",
+      imageSrc: "assets/unknown.png"
     }
     // Paste more projects here from the template
 
@@ -87,7 +83,7 @@ export default {
 
   // Contact Section
   contactPara:
-    "I would be happy to discuss my projects & aspirations further with you, simply shoot me an email or message me on LinkedIn! :)",
+    "I would be happy to further discuss my experiences with you, simply shoot me an email or message me on LinkedIn! :)",
   social: [
     // Add Or Remove The Link Accordingly
     {

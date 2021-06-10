@@ -7,8 +7,9 @@ const Header = ({name, contactEmail})=>{
                 <Link to="/"><h1>{name}.</h1></Link>
                 <nav>
                     <ul>
-                        <li><Link to="/about">resume</Link></li>
+                        <li><Link to="/resume">resume</Link></li>
                         <li><a href="#end">contact</a></li>
+                        {/*<li><Link to="/TestPage">hi</Link></li>*/}
                     </ul>
                 </nav>
             </div>
