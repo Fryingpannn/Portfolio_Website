@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './header';
-import data from './yourdata';
+import Header from './Header';
+import data from '../yourdata';
 
 const Resume = () =>{
 return (
