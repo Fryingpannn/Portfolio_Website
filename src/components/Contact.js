@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { FaEnvelope, FaLinkedin, FaGithub, FaCodepen } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Contact = ({contactEmail, contactPara, socialLinks})=>{
   const [count,setCount] = useState(0);
@@ -7,7 +7,6 @@ const Contact = ({contactEmail, contactPara, socialLinks})=>{
       <div className="contact_container">
         <h1>Get in touch.</h1>
         <p>{contactPara}</p>
-        <br></br>
         <a className="email_link" href={`mailto:${contactEmail}`}>
           {contactEmail}
         </a>
@@ -15,17 +14,17 @@ const Contact = ({contactEmail, contactPara, socialLinks})=>{
           <ul>
             <li>
               <a id="end" href={`mailto:${contactEmail}`}>
-                <FaEnvelope></FaEnvelope>
+                <FaEnvelope/>
               </a>
             </li>
             <li>
               <a href={socialLinks[0].url}>
-                <FaLinkedin></FaLinkedin>
+                <FaLinkedin/>
               </a>
             </li>
             <li>
               <a href={socialLinks[1].url}>
-                <FaGithub></FaGithub>
+                <FaGithub/>
               </a>
             </li>
           </ul>

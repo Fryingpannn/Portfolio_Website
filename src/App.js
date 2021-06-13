@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import Resume from './components/Resume';
@@ -11,16 +11,16 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route path="/resume">
-        <Resume></Resume>
+          <Resume/>
         </Route>
         <Route path="/" exact>
-        <Landing></Landing>
+          <Landing/>
         </Route>
         <Route path="/test">
-          <Test></Test>
+          <Test/>
         </Route>
         <Route path="/TestPage">
-          <Peepo></Peepo>
+          <Peepo/>
         </Route>
       </Switch>
     </BrowserRouter>
