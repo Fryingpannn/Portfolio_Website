@@ -1,7 +1,4 @@
 import React, {useState} from 'react';
-import Header from './header';
-import data from './yourdata';
-
 
 const Peepo = () => {
   // Declare a new state variable, which we'll call "count"

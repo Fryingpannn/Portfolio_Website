@@ -32,7 +32,7 @@ export default class Clock extends React.Component{
     // otherwise will be infinite loop. activates right after update.
     componentDidUpdate(prevProps, prevState){
         // only activates if pre-update state is same as new one
-        if(this.state == prevState){
+        if(this.state === prevState){
             console.log("did update!")
         }
     }
