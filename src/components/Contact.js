@@ -1,8 +1,8 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
+import Peepo from './Peepo';
 
 const Contact = ({contactEmail, contactPara, socialLinks})=>{
-  const [count,setCount] = useState(0);
     return (
       <div className="contact_container">
         <h1>Get in touch.</h1>
@@ -29,11 +29,7 @@ const Contact = ({contactEmail, contactPara, socialLinks})=>{
             </li>
           </ul>
         </div>
-        <div className="space"></div>
-        <h3 style={{marginTop: "5%", marginLeft: "80%"}}>
-        <p style={{marginLeft: ""}}>Count: {count} </p>
-        <button style={{marginLeft: "100%"}} onClick={() => setCount(count+1)}>Easter egg</button>
-      </h3>
+        <Peepo style={{position: "absolute", height: "10%", bottom: 0, right: 0}}/>
       </div>
     );
 }

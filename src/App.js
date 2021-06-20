@@ -4,7 +4,6 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import Resume from './components/Resume';
 import Landing from './components/Landing';
 import Test from './components/Test';
-import Peepo from './components/Peepo';
 
 function App() {
   return (
@@ -18,9 +17,6 @@ function App() {
         </Route>
         <Route path="/test">
           <Test/>
-        </Route>
-        <Route path="/TestPage">
-          <Peepo/>
         </Route>
       </Switch>
     </BrowserRouter>
